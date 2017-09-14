@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Attendance Poll</title>
+			<link rel="stylesheet" type="text/css" href="student.css">
+				<meta charset="UTF-8">
+				<meta name="description" content="Rate anything you want">
+  				<meta name="keywords" content="Movies,App,Website">
+  				<meta name="author" content="Ayush Tibra">
+  				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	</head>
+
+<body>
+
+	<div>
+	<h3>Student Login</h3>
+	<form action="Servlet"  autocomplete="on">
+		<b>Username</b>
+		<input type="text" name="UserName" size="30" maxlength="20" autofocus placeholder="Username" required><br><br>
+		<b>Password</b>
+		<input type="password" name="Password" size="30" maxlength="20" placeholder="Password" required><br><br>
+			<b>Course</b>
+ 		<select name="Cname" required>
+ 				<option value="DBMS">DBMS</option>
+ 				<option value="COA">COA</option>
+ 				<option value="OOPs">OOP</option>
+ 				<option value="DAA">DAA</option>
+ 				<option value="Economics">ECONOMICS</option>
+ 				<option value="Pyschology">PYSCHOLOGY</option>
+ 				<option value="DMS">DMS</option>
+ 				<option value="ITWS">ITWS</option>
+ 				<option value="Physics">PHYSICS</option>
+ 				<option value="Maths">MATHS</option>
+ 				<option value="Electronics">ELECTRONICS</option>
+ 				<option value="English">ENGLISH</option>
+ 				<option value="French">FRENCH</option>
+
+ 			</select><br><br>
+ 			 <b>From-Date</b>
+  <input type="date" name="datefrom" class="error11">
+  <br><br>
+  <b> To-Date</b>
+  <input type="date" name="dateto" class="error12">
+  <br><br>
+		<input type="submit" value="Login"  >
+	 
+	</form>
+	</div>
+
+</body>
+</html>
